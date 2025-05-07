@@ -22,10 +22,10 @@ var popup = true;
 var inventory = {};
 var jackpotInventory = {};
 
-var inventoryMax = 50;
+var inventoryMax = 50000;
 var inventoryCurrent = 0;
 
-var keyPrice = 2.50;
+var keyPrice = 0.01;
 
 var caseDiscount = 0;
 var keyDiscount = 0;
@@ -164,12 +164,12 @@ var cases = {
     milspec: {
       weap1: {
         name: "MP7 | Skulls",
-        price: 0.78,
+        price: 1000000,
         img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6ryFA957ODDZDFO_-O6nYeDg8j4MqnWkyUC7ZYp07iT94j3jVXsqkE-Y2qhJYKcJwA_aA7ZrFC6wLvqgcDt78ud1zI97Xw9NqWl"
       },
       weap2: {
         name: "AUG | Wings",
-        price: 0.62,
+        price: 1000000,
         img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot6-iFA957PXNcClK6c6lq4GekMj4OrzZglRd6dd2j6fEpNik0Vbh-RJvNz2nINTAJgM9Y1CG_lK2lL_q0cPtvJqbySAyuCQq-z-DyC4dac1H"
       },
       weap3: {
@@ -309,14 +309,14 @@ var cases = {
       },
       weap4: {
         name: "Galil AR | Sandstorm",
-        price: 0.21,
+        price: 1000000,
         img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczLZAJR7dKyh5SEhfrLPr7Vn35c18lwmO7Eu9qs0AXtrkI9ZWv3JdOVIVdvaQzV-1PvwbvvgMO_uMnLmiMwvnInt33D30vgH7ufOHU"
       },
     },
     restricted: {
       weap1: {
         name: "Nova | Rising Skull",
-        price: 0.98,
+        price: 1000000,
         img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpouLWzKjhjxszbeihO4OO4m5aKqPrxN7LEm1Rd6dd2j6eWo9zw2lC38kA9Z2z1ItKSIQVsaAvY-1C9ye25jcC7uMiby3dhuSkk-z-DyJ3pID1f"
       },
       weap2: {
@@ -369,12 +369,12 @@ var cases = {
     milspec: {
       weap1: {
         name: "UMP-45 | Delusion",
-        price: 0.15,
+        price: 1000000,
         img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo7e1f1JfwOP3ZDBSuImJkM2dnuT9PLXCqWdY781lteXA54vwxgfnqhZrNmCmLNTDcAJrNFHXrFXowrrs0MO9vZ6czHNksiJz4nrbyUSpwUYbODub6t8"
       },
       weap2: {
         name: "MP9 | Dart",
-        price: 0.23,
+        price: 1000000,
         img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6r8FAR17P7YKAJB5Nmgho-FqPv9NLPFqWdQ-sJ0xL-YrY333Qzn_kBrNmqmcILHdQA4YAzTrALoxuu90JC-6p2anSQy6Ck8pSGKo7I07Pg"
       },
       weap3: {
